@@ -1,0 +1,16 @@
+.container12,
+.container-fluid12,
+.container-xxl12,
+.container-xl12,
+.container-lg12,
+.container-md12,
+.container-sm12 {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 100vh;
+}
